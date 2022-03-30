@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #060911f3;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background: #0b0a11;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 400px;
+  width: 400px;
+}
+
+h1 {
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 1rem;
+}
+
+label {
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+input {
+  border: 1px solid transparent;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  padding: .8rem;
+  outline: none;
+  width: 100%;
+}
+
+input:focus {
+  border: 1px solid rgb(9, 255, 62);
+}
+
+
+label {
+  margin-bottom: 1rem;
+}
+
+button {
+  background: rgb(46, 89, 231);
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+  padding: .5rem;
+  outline: none;
+  border: none;
+  margin: auto;
+  width: 80%;
+}
+
+button:hover {
+  background: rgb(81, 179, 56);
+}
+
+.container_message {
+  letter-spacing: 1px;
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+.correct {
+  color: rgb(81, 179, 56);
+}
+
+.incorrect {
+  color: rgb(179, 60, 56);
+}
